@@ -321,25 +321,4 @@ body {
 
     /** фууутер портфолио **/
 
-    .footer-portfolio {
-        background-color: var(--header-color);
     
-    }
-
-    .logo-footer-portfolio {
-        font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color:var(--blue-color);
-    }
-    
-    .logo-footer-portfolio.link {
-        text-decoration:none;
-    }
-    
-    .logo-studio-portfolio {
-        color: #f4f4fd;
-    }
