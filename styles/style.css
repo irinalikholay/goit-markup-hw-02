@@ -30,7 +30,7 @@ body {
 
 }
 
-.logo-link link {
+.logo-link.link {
     text-decoration:none;
 }
 
@@ -191,7 +191,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--title-color);
+    color: var(--header-color);
 }
 
 .team-text {
@@ -227,6 +227,7 @@ body {
     color: #f4f4fd;
 }
 
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
@@ -237,6 +238,11 @@ body {
 
 
      /** ПОРТФОЛИО **/
+     .body {
+        font-family: "Roboto", sans-serif;
+        color: var(--text-color);
+     }
+
      .logo {
         font-family: 'Raleway', sans-serif;
         font-weight: 800;
@@ -310,4 +316,30 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+    }
+
+
+    /** фууутер портфолио **/
+
+    .footer-portfolio {
+        background-color: var(--header-color);
+    
+    }
+
+    .logo-footer-portfolio {
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:var(--blue-color);
+    }
+    
+    .logo-footer-portfolio.link {
+        text-decoration:none;
+    }
+    
+    .logo-studio-portfolio {
+        color: #f4f4fd;
     }
