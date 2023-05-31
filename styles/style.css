@@ -29,7 +29,7 @@ body {
 }
 
 .logo-link link {
-    text-decoration: none;
+    text-decoration: none ;
 }
 
 .logo-studio-span {
@@ -51,7 +51,7 @@ body {
 }
 
 .header-menu-link link {
-    text-decoration:none;
+    text-decoration:none ;
 }
 
 .header-menu-link:hover {
@@ -63,6 +63,10 @@ body {
 }
 
 /** ADRESS **/
+
+.header-contact {
+    font-style: normal ;
+}
 
 .header-contact-menu {
     list-style: none ;
@@ -77,11 +81,11 @@ body {
 }
 
 .header-contact-link link:hover {
-    color: #404bbf ;
+    color: #404bbf;
 }
 
 .header-contact-link link:focus {
-    color: #404bbf ;
+    color: #404bbf;
 }
 
 /** 1 СЕКЦИЯ **/
@@ -215,7 +219,7 @@ body {
     text-decoration: none;
 }
 
-.logo-studio-footer span {
+.logo-studio-footer {
     color: #f4f4fd;
 }
 
@@ -229,6 +233,31 @@ body {
 
 
      /** ПОРТФОЛИО **/
+     .logo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--blue-color);
+     }
+
+     .logo link {
+        text-decoration: none;
+     }
+
+     .logo-portfolio-span {
+        color: var(--header-color);
+     }
+     
+     .header-menu-link {
+        font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--header-color);
+     }
 
      .text-button {
         color:#4D5AE5;
