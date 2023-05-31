@@ -5,6 +5,8 @@
     --blue-color: #4d5ae5;
     --header-color:#2e2f42;
     --text-color:#434455;
+    --button-color:#F4F4FD;
+    --back-color:#404BBF;
 
 
 }
@@ -245,7 +247,7 @@ body {
         color: var(--blue-color);
      }
 
-     .logo link {
+     .logo.link {
         text-decoration: none;
      }
 
@@ -262,11 +264,36 @@ body {
      }
 
      .text-button {
-        color:#4D5AE5;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-    
+        letter-spacing: 0.04em;
+        color: var(--blue-color);
+        background-color:var(--button-color);
+    }
+
+    .text-button:hover {
+        color: var(--white-color);
+        background-color: var(--back-color);
+ 
+    }
+
+    .text-button:focus {
+        color: var(--white-color);
+        background-color: var(--back-color);
+        
+    }
+
+    .button {
+        cursor: pointer;
+    }
+
+    .images.link{
+        text-decoration: none;
+    }
+
+    .photo-menu.list{
+        list-style: none
     }
     
     .header-photo {
