@@ -29,7 +29,7 @@ body {
 }
 
 .logo-link link {
-    text-decoration: none ;
+    text-decoration:none;
 }
 
 .logo-studio-span {
@@ -90,9 +90,11 @@ body {
 
 /** 1 СЕКЦИЯ **/
 
-.hero-title {
+.hero-section {
     background-color: var(--header-color);
 }
+
+
 
 .hero-title {
     color: var(--white-color);
@@ -216,7 +218,7 @@ body {
 }
 
 .logo-footer link {
-    text-decoration: none;
+    text-decoration:none;
 }
 
 .logo-studio-footer {
