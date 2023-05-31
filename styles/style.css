@@ -38,9 +38,9 @@ body {
     color:var(--header-color) ;
 }   
 
-/** BANER **/
+/** header **/
 
-.header-menu list {
+.header-menu.list {
     list-style:none;
 }
 
@@ -52,7 +52,7 @@ body {
     color: var(--header-color);
 }
 
-.header-menu-link link {
+.header-menu-link.link {
     text-decoration:none ;
 }
 
@@ -82,11 +82,11 @@ body {
 
 }
 
-.header-contact-link link:hover {
+.header-contact-link.link:hover {
     color: #404bbf;
 }
 
-.header-contact-link link:focus {
+.header-contact-link.link:focus {
     color: #404bbf;
 }
 
@@ -108,7 +108,7 @@ body {
 }
 
 .hero-button {
-    color: var(--blue-color);
+    color: var(--white-color);
     background-color: #4D5AE5;
     font-family: inherit;
     font-weight: 500;
@@ -183,7 +183,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    color:var(--header-color);
+    color: var(--header-color);
 }
 
 .team-subtitle {
@@ -219,7 +219,7 @@ body {
     color:var(--blue-color);
 }
 
-.logo-footer link {
+.logo-footer.link {
     text-decoration:none;
 }
 
