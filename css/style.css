@@ -18,7 +18,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color:var(--white-color);
+    background-color: var(--white-color);
     }
 
 /** LOGO **/
@@ -39,7 +39,7 @@ body {
 }
 
 .logo-studio-span {
-    color:var(--dark-color) ;
+    color: var(--dark-color);
 }   
 
 /** header **/
